@@ -1,12 +1,10 @@
-
-
-
+/* 
 @font-face {
   font-family: 'Rubik Glitch';
   src: url('Rubik_Glitch/RubikGlitch-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 body {
   font-family: "Open Sans";
@@ -19,7 +17,6 @@ body {
   font-size: 20px;
 }
 
-
 h1 {
 font-family: "Aldrich";
 font-size: 40px;
@@ -30,11 +27,6 @@ h3 {
 font-family: "Aldrich";
 color: #ef3939;
 font-size: 30px;
-}
-
-img {
-  /* background-color: rgb(1, 183, 250); */
-  /* opacity: 50%; */
 }
 
 .flexRow {
@@ -64,174 +56,6 @@ img {
   /* flex-direction: row-reverse; */
 }
 
-.flexText:first-of-type {
-  /* margin-top: -5px; */
-  padding-top: 5px;
-  /* display: flex;
-  align-items: baseline;
-  flex-wrap: wrap;
-  max-width: 400px; */
-  /* flex-direction: row-reverse; */
-}
-
-.cardElement {
-  margin: 200px;
-  background-color: (246, 238, 227);
-  min-width: 450px;
-  /* min-height: 600px; */
-  /* outline: 1px solid red; */
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  box-shadow: 5px 5px 20px rgba(110, 108, 108, 0.5);
-}
-
-.cardElementBookCover {
-  /* margin: 200px; */
-  /* background-color: (246, 238, 227); */
-  background-color: whitesmoke;
-  min-width: 400px;
-  /* min-height: 600px; */
-  /* outline: 1px solid red; */
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  box-shadow: 5px 5px 20px rgba(110, 108, 108, 0.5);
-  /* opacity: 35%; */
-}
-
-.bodyOfPost {
-  width: 92%;
-  height: 50px;
-  /* border-top: 3px solid black; */
-  margin-top: 20px;
-  margin-bottom: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: start;
-}
-
-.bodyOfReply {
-  width: 90%;
-  height: 50px;
-  border: 3px solid gray;
-  border-radius: 20px;
-}
-
-.bodyOfBigReply {
-  width: 90%;
-  height: 80px;
-  border: 3px solid gray;
-  border-radius: 20px;
-}
-
-input {
-  max-width: 50px;
-  text-align: center;
-}
-
-button {
-  border-radius: 20px;
-}
-
-.headerWrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-.fetchElement {
-  outline: 1px solid black;
-  min-width: 500px;
-  /* min-height: 100px; */
-  flex-direction: row;
-  margin: 20px;
-}
-
-.ChattyCathy {
-  /* border-bottom: 2px solid rgb(175, 173, 173); */
-  display: flex;
-  align-self: center;
-  /* color: darkslategray; */
-  /* box-shadow: 0 8px 4px -2px gray; */
-}
-
-.chat-container {
-  display: flex;
-  flex-direction: column;
-  width: 550px;
-  border: 1px solid lightgray;
-  border-radius: 15px;
-  padding: 25px;
-  box-shadow: 5px 5px 20px rgba(110, 108, 108, 0.5);
-  /* min-width: 600px; */
-  max-width: 400px;
-  /* align-items:; */
-}
-
-.chat-wrapper-left {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  max-width: 350px;
-  /* margin-top: 20px; */
-}
-
-.chat-bubble-left {
-  background-color: lightgrey;
-  /* outline: 2px solid black; */
-  color: black;
-  padding: 0px 10px;
-  border-radius: 5px 5px 5px 0px;
-  /* max-width: 300px; */
-  margin: 5px 0;
-  position: relative;
-  min-width: 325px;
-}
-
-.chat-bubble-left::after {
-  content: "";
-  position: absolute;
-  top: 100%; /* Position the arrow below the bubble */
-  left: 0px;
-  border-width: 12px 12px 12px 0px;
-
-  border-style: solid;
-  border-color: lightgrey transparent transparent transparent; /* Arrow pointing down */
-}
-
-.chat-wrapper-right {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  max-width: 350px;
-  flex-wrap: wrap;
-}
-
-.chat-bubble-right {
-  /* align-items: flex-end; */
-  /* justify-content: right; */
-  background-color: lightgrey;
-  /* outline: 2px solid black; */
-  color: black;
-  padding: 0px 10px;
-  border-radius: 5px 5px 0px 5px;
-  /* max-width: 300px; */
-  margin: 5px 0;
-  position: relative;
-  min-width: 325px;
-}
-
-.chat-bubble-right::after {
-  content: "";
-  position: absolute;
-  top: 100%; /* Position the arrow below the bubble */
-
 
 
   @media (max-width: 768px) {
@@ -242,6 +66,12 @@ button {
 
   h1 {
     font-size: 24px;
+    color: blue;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 20px;
     text-align: center;
   }
 
