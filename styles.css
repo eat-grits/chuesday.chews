@@ -1,22 +1,14 @@
 /* @font-face {
-  font-family: "Lexand_Deca";
-  src: url(public/Lexend_Deca);
+  font-family: "Rubik";
+  src: /Rubik_80s_Fade;
 } */
 
-/* .lexend-deca {
-  font-family: "Lexend", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
+@font-face {
+  font-family: 'Rubik';
+  src: url('Rubik_80s_Fade/MyFont.woff2') format('woff2');
+  font-weight: normal;
   font-style: normal;
-} */
-
-/* .open-sans-open {
-  font-family: "Open_Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-} */
+}
 
 body {
   font-family: "Open Sans";
