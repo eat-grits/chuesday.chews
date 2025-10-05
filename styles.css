@@ -1,12 +1,3 @@
-
-
-@font-face {
-  font-family: 'Rubik';
-  src: url('Rubik_80s_Fade/Rubik80sFade-Regular.ttf') format('tff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 @font-face {
   font-family: 'Rubik_Glitch';
   src: url('Rubik_Glitch/RubikGlitch-Regular.ttf') format('tff');
@@ -27,7 +18,7 @@ body {
 
 h1 {
 font-family: "Rubik_Glitch";
-  color: ef3939;
+color: #ef3939;
 }
 
 img {
