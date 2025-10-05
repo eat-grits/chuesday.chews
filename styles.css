@@ -31,7 +31,8 @@ body {
 }
 
 h1{
-font-family: "Aldrich"
+font-family: "Aldrich";
+  color: red;
 }
 
 img {
