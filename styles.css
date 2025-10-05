@@ -14,7 +14,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  /* background-color: rgb(241, 241, 79); */
+  background-color: rgb(241, 241, 79); 
   /* background-color: lightblue; */
   /* opacity: 35%; */
 }
