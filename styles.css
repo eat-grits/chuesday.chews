@@ -60,6 +60,7 @@ a {
     padding: 10px;
     font-size: 16px;
     font-size: 24px;
+    margin: 0px;
   }
 
   h1 {
@@ -91,8 +92,8 @@ a {
     height: auto;
   }
 }
-  right: 0px;
+  /* right: 0px;
   border-width: 12px 0px 12px 12px;
   border-style: solid;
-  border-color: lightgrey transparent transparent transparent; /* Arrow pointing down */
+  border-color: lightgrey transparent transparent transparent; /* Arrow pointing down */ */
 }
