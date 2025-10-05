@@ -7,6 +7,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Rubik_Glitch';
+  src: url('Rubik_Glitch/RubikGlitch-Regular.ttf') format('tff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: "Open Sans";
   font-weight: 500;
@@ -19,7 +26,7 @@ body {
 
 
 h1 {
-font-family: "Rubik";
+font-family: "Rubik_Glitch";
   color: ef3939;
 }
 
