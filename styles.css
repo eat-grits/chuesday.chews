@@ -1,11 +1,8 @@
-/* @font-face {
-  font-family: "Rubik";
-  src: /Rubik_80s_Fade;
-} */
+
 
 @font-face {
   font-family: 'Rubik';
-  src: url('Rubik_80s_Fade/MyFont.woff2') format('woff2');
+  src: url('Rubik_80s_Fade/Rubik80sFade-Regular.ttf') format('tff');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,7 +20,7 @@ body {
 }
 
 h1 {
-font-family: "Aldrich";
+font-family: "Rubik";
   color: red;
 }
 
